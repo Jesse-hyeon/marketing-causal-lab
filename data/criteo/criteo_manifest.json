@@ -1,0 +1,14 @@
+{
+  "dataset": "criteo/criteo-uplift",
+  "revision": "2424920019e49d52d72c13ac1143ec5d53af276b",
+  "downloaded_at_utc": "2026-11-09T15:56:50Z",
+  "total_bytes": 311422618,
+  "files": [
+    {
+      "path": "criteo-research-uplift-v2.1.csv.gz",
+      "size_bytes": 311422618,
+      "sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+      "source_url": "https://huggingface.co/datasets/criteo/criteo-uplift/resolve/2424920019e49d52d72c13ac1143ec5d53af276b/criteo-research-uplift-v2.1.csv.gz"
+    }
+  ]
+}

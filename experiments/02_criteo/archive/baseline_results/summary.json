@@ -1,0 +1,25 @@
+{
+  "dataset": "criteo",
+  "selected": "base/S",
+  "H1": "H1: Validation에서 선택한 Uplift 모델의 상위 30% 정책은 동일 예산 무작위 광고 정책보다 추가 방문을 높인다.",
+  "H1_result": {
+    "estimate": -0.0012566683348881683,
+    "lo": -0.0061526908210676285,
+    "hi": 0.005970636088934051
+  },
+  "H1_verdict": "판단 보류",
+  "H2": "DR-Learner의 advanced holdout Qini가 validation 선택 기존 모델보다 높다.",
+  "H2_result": {
+    "estimate": -0.0034274327239271155,
+    "lo": -0.00744269058496427,
+    "hi": 0.0021131491943102926
+  },
+  "H2_verdict": "판단 보류",
+  "preparation": {
+    "population_counts": [
+      2096937,
+      11882655
+    ],
+    "population_treatment_rate": 0.8500001287591226
+  }
+}

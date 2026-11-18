@@ -1,0 +1,29 @@
+{
+  "cache_key": "criteo-fresh-v1-2716e1bf0fd157a9-n1000000-s20261111-ex120000-42",
+  "dataset": "criteo/criteo-uplift",
+  "source_file": "criteo-research-uplift-v2.1.csv.gz",
+  "source_sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+  "revision": "2424920019e49d52d72c13ac1143ec5d53af276b",
+  "seed": 20261111,
+  "n": 1000000,
+  "exclude_n": 120000,
+  "exclude_seed": 42,
+  "excluded_row_id_sha256": "38c556e784f1396c6544c5bf446a50706835cc193cd6be3ce394e1952cdc2853",
+  "sample_row_id_sha256": "9d16f0a4dad95c88f46dd1659985fec0b6b6974ae711cd87ca97ccf54fd3d6d9",
+  "population_counts": [
+    2096937,
+    11882655
+  ],
+  "eligible_counts": [
+    2078937,
+    11780655
+  ],
+  "sample_counts": [
+    150000,
+    850000
+  ],
+  "excluded_overlap": 0,
+  "cache_hit": false,
+  "exposure_used_for_sampling": false,
+  "outcomes_used_for_sampling": false
+}

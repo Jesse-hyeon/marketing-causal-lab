@@ -1,0 +1,5 @@
+,visit,visit,visit,conversion,conversion,conversion,exposure,exposure,exposure
+,count,sum,mean,count,sum,mean,count,sum,mean
+treatment,,,,,,,,,
+0,29920,1109,0.03706550802139037,29920,51,0.0017045454545454545,29920,0,0.0
+1,169616,8350,0.04922884633525139,169616,505,0.002977313460994246,169616,6079,0.03583977926610697

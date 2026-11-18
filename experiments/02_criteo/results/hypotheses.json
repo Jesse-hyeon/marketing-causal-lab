@@ -1,0 +1,68 @@
+{
+  "registered_at_utc": "2026-11-10T18:20:21.911167+00:00",
+  "protocol": {
+    "version": "criteo-data-first-v1",
+    "seed": 20261111,
+    "n_sample": 1000000,
+    "k": 0.3,
+    "B": 399,
+    "hypothesis_primary": "범주형 S-Learner의 top30 정책 가치가 수치형 S-Learner보다 높다.",
+    "hypothesis_secondary": "Validation에서 선택한 top30 정책이 random30 정책보다 방문을 높인다.",
+    "primary_metric": "paired PolicyValue difference",
+    "selection_metric": "Validation PolicyGain@30%",
+    "candidates": [
+      "numeric/S",
+      "numeric/T",
+      "numeric/X",
+      "categorical/S",
+      "categorical/T",
+      "categorical/X",
+      "categorical/DR"
+    ],
+    "feature_schema": {
+      "continuous": [
+        "f0",
+        "f10",
+        "f2",
+        "f7"
+      ],
+      "categorical": [
+        "f1",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f8",
+        "f9",
+        "f11"
+      ]
+    },
+    "model_params": {
+      "max_iter": 120,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 200,
+      "learning_rate": 0.06,
+      "l2_regularization": 2.0,
+      "early_stopping": false,
+      "max_frequent_categories": 63
+    },
+    "propensity_primary": 0.85,
+    "propensity_sensitivity": "train-only logistic",
+    "sample_ids_sha256": "9d16f0a4dad95c88f46dd1659985fec0b6b6974ae711cd87ca97ccf54fd3d6d9",
+    "source_sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+    "split_counts": {
+      "discovery": 199536,
+      "train": 400351,
+      "validation": 100060,
+      "test": 300053
+    },
+    "versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.1",
+      "dowhy": "0.14",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0"
+    }
+  }
+}

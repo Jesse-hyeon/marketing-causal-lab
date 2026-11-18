@@ -1,0 +1,22 @@
+{
+  "dataset": "retailhero",
+  "selected": "base/S",
+  "H1": "H1: 과거 구매 이력을 추가한 **고정 T-Learner**의 테스트 Qini가 기본 고객 정보 T-Learner보다 높다.",
+  "H1_result": {
+    "estimate": 0.006830982250230145,
+    "lo": -0.01013553618936729,
+    "hi": 0.02511827935042236
+  },
+  "H1_verdict": "판단 보류",
+  "H2": "DR-Learner의 advanced holdout Qini가 validation 선택 기존 모델보다 높다.",
+  "H2_result": {
+    "estimate": 0.007536374906875341,
+    "lo": -0.012568336938510333,
+    "hi": 0.025446097052779865
+  },
+  "H2_verdict": "판단 보류",
+  "preparation": {
+    "history_reference": "2019-03-19 00:00:00",
+    "unique_transactions": 798214
+  }
+}

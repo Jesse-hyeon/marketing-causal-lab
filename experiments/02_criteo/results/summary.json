@@ -1,0 +1,93 @@
+{
+  "study": "criteo-data-first-v1",
+  "sample": {
+    "cache_key": "criteo-fresh-v2-2716e1bf0fd157a9-sampler6d226a322a4e48f6-n1000000-s20261111-ex120000-42",
+    "dataset": "criteo/criteo-uplift",
+    "source_file": "criteo-research-uplift-v2.1.csv.gz",
+    "source_sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+    "revision": "2424920019e49d52d72c13ac1143ec5d53af276b",
+    "exclusion_sampler_sha256": "6d226a322a4e48f6242a0e6001530f89a4e70fcb79452ed29a1777fc9bb64573",
+    "seed": 20261111,
+    "n": 1000000,
+    "exclude_n": 120000,
+    "exclude_seed": 42,
+    "excluded_row_id_sha256": "38c556e784f1396c6544c5bf446a50706835cc193cd6be3ce394e1952cdc2853",
+    "sample_row_id_sha256": "9d16f0a4dad95c88f46dd1659985fec0b6b6974ae711cd87ca97ccf54fd3d6d9",
+    "population_counts": [
+      2096937,
+      11882655
+    ],
+    "eligible_counts": [
+      2078937,
+      11780655
+    ],
+    "sample_counts": [
+      150000,
+      850000
+    ],
+    "excluded_overlap": 0,
+    "cache_hit": false,
+    "exposure_used_for_sampling": false,
+    "outcomes_used_for_sampling": false
+  },
+  "split_counts": {
+    "discovery": 199536,
+    "train": 400351,
+    "validation": 100060,
+    "test": 300053
+  },
+  "primary_hypothesis": "범주형 S-Learner의 top30 정책 가치가 수치형 S-Learner보다 높다.",
+  "secondary_hypothesis": "Validation에서 선택한 top30 정책이 random30 정책보다 방문을 높인다.",
+  "selected": "numeric/S",
+  "H3": {
+    "estimate": -0.00022519002554668988,
+    "lo": -0.0010558405195696889,
+    "hi": 0.0004931213299839469,
+    "verdict": "판단 보류"
+  },
+  "H4": {
+    "estimate": 0.005065976690630065,
+    "lo": 0.003958917448757228,
+    "hi": 0.006220971439191194,
+    "verdict": "지지"
+  },
+  "sensitivity": {
+    "H3": {
+      "estimate": -0.0002436239904847065,
+      "lo": -0.0011094007391855034,
+      "hi": 0.00047763191651360146,
+      "verdict": "판단 보류"
+    },
+    "H4": {
+      "estimate": 0.005052104266069129,
+      "lo": 0.003894357439117996,
+      "hi": 0.0062807551049062355,
+      "verdict": "지지"
+    }
+  },
+  "secondary_selected_vs_response": {
+    "estimate": 0.00010902792811293138,
+    "lo": -0.0005443853062281342,
+    "hi": 0.0007074987583117642,
+    "verdict": "판단 보류"
+  },
+  "dml": {
+    "estimate": 0.007102870775298237,
+    "se": 0.0007230070112497585,
+    "lo": 0.005685777033248711,
+    "hi": 0.008519964517347763
+  },
+  "test_arm_counts": [
+    45157,
+    254896
+  ],
+  "test_propensity_auc": 0.5107004041766043,
+  "scope": "public-sample benchmark under additional causal assumptions",
+  "limitations": [
+    "outcome-dependent public subsampling",
+    "no real costs/margins/campaign IDs",
+    "conditional fitted-model bootstrap",
+    "single validation selection",
+    "rare category pooling"
+  ]
+}

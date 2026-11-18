@@ -1,0 +1,44 @@
+{
+  "dataset": "pytorch-lifestream/retailhero-uplift",
+  "revision": "7744156a4f89f4828607921e8c9668f04801f4de",
+  "downloaded_at_utc": "2026-11-09T15:49:27Z",
+  "total_bytes": 622956732,
+  "files": [
+    {
+      "path": "clients.csv.gz",
+      "size_bytes": 7634884,
+      "sha256": "b8985170e03dc65fa532fb6b8ca6dd70ea5c30c35ea7c1019ee6ea2034d04099",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/clients.csv.gz"
+    },
+    {
+      "path": "products.csv.gz",
+      "size_bytes": 1054470,
+      "sha256": "6b72e025ff77974940ebdba63998a4349ae290a33efeb41f29989fdea6e96573",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/products.csv.gz"
+    },
+    {
+      "path": "purchases.csv.gz",
+      "size_bytes": 608830890,
+      "sha256": "1342e14e1aa9d39dc242f1b66c903f0576fd184af9dc5a3bbe932607dc2d8aba",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/purchases.csv.gz"
+    },
+    {
+      "path": "uplift_sample_submission.csv.gz",
+      "size_bytes": 3179230,
+      "sha256": "7dabb06e80f94e00137d694231ee4de1c03994176367d711cb8e7bbb3253a877",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/uplift_sample_submission.csv.gz"
+    },
+    {
+      "path": "uplift_test.csv.gz",
+      "size_bytes": 1074829,
+      "sha256": "8b98fe6ee94478253f40e7ed7ebbbefeb47c78ab37fd41111f3b35b8b69373e0",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/uplift_test.csv.gz"
+    },
+    {
+      "path": "uplift_train.csv.gz",
+      "size_bytes": 1182429,
+      "sha256": "23aced68634c605acb93a7ab450aabac1a0ce0c8104e59ffed9941109ddc4ccd",
+      "source_url": "https://huggingface.co/datasets/pytorch-lifestream/retailhero-uplift/resolve/7744156a4f89f4828607921e8c9668f04801f4de/data/uplift_train.csv.gz"
+    }
+  ]
+}

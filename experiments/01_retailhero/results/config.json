@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "n_sample": 40000,
+  "bootstrap": 200,
+  "targeting_fraction": 0.3,
+  "split": "60% train / 20% validation / 10% test / 10% advanced_holdout",
+  "learner": "HistGradientBoostingRegressor",
+  "model_params": {
+    "max_iter": 60,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 100,
+    "learning_rate": 0.08,
+    "l2_regularization": 2.0,
+    "propensity_clip": [
+      0.03,
+      0.97
+    ],
+    "crossfit_folds": 3
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "dowhy": "0.14",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  }
+}
